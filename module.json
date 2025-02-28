@@ -1,0 +1,64 @@
+{
+  "id": "undead-gm",
+  "title": "!Undead GM",
+  "description": "Модуль, который рандомизирует HP, монеты, заклинания и добычу для несвязанных токенов.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ваше Имя",
+      "discord": "ВашDiscord#1234",
+      "url": "https://github.com/yourusername"
+    }
+  ],
+  "esmodules": ["scripts/main.js"],
+  "styles": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.0.0",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.0",
+          "verified": "4.3.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.10.0",
+          "verified": "1.10.0"
+        },
+        "optional": false
+      }
+    ]
+  },
+  "url": "https://github.com/edlig/undead-gm",
+  "manifest": "https://raw.githubusercontent.com/edlig/undead-gm/main/module.json",
+  "download": "https://github.com/edlig/undead-gm/archive/main.zip",
+  "readme": "https://github.com/edlig/undead-gm/blob/main/README.md",
+  "changelog": "https://github.com/edlig/undead-gm/blob/main/CHANGELOG.md",
+  "license": "https://github.com/edlig/undead-gm/blob/main/LICENSE.md",
+  "bugs": "https://github.com/edlig/undead-gm/issues"
+}
